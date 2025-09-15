@@ -1,15 +1,17 @@
 <script setup>
-import HelloWorld from './components/Welcome.vue'
+import Welcome from './components/Welcome.vue';
+
+
 </script>
 
 <template>
   <header>
-    <a>
-      <img src="./assets/almaa.jpg" class="logo" alt="Gitkraken logo" />
-    </a>
+  
   </header>
-  <main></main>
-  <footer><h2>Zihájl</h2></footer>
+  <main>
+    <Welcome />
+  </main>
+  <footer></footer>
 </template>
 
 <style>
